@@ -1,0 +1,404 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+width: 100%;
+}
+
+[class*="col-"]{
+    float: left;
+    border: 1px ;
+}
+.row::after{  /*giả rỗng*/
+
+    content: "";
+    clear: both;
+}
+body{
+    background-color: #f5f5f5;
+}
+/*phần đầu*/
+
+#head{
+    width: 1200px;
+    margin: auto;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+#head [class*="col-"]{
+    height: 100%;
+}
+.form-control {
+    
+    width: 90%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-top: 12px; 
+}
+.btn-primary {
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    top: 14px;
+    border:white;
+    right: 611px;
+    
+}
+.item-header{
+    float: left;
+    padding-left: 15px;
+    margin-top: 0;
+}
+.shopping { 
+    float: left;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding-left: 10px ;
+    padding-top: 10px ;
+}
+.txt-giohang {
+    font-size: 14px;
+    float: left;
+    color: black;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.sl-giohang {
+    position: absolute;; /* chèn lên đối tượng*/
+    top: 8px;
+   left: 1005px;
+   border-radius: 10px;
+   
+}
+.label-danger {
+    background-color: brown;
+   
+   
+}
+.lable-moi {
+    font-size: 14px;
+    position: absolute;
+    top: 630px;
+    border-radius: 3px;
+}
+.label {
+    
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center; 
+    
+    
+    
+    
+}
+.shoping {
+    float: left;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding-top: 10px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 6px 12px;
+    margin-top: 15px;
+    font-weight: bold;
+    background: darkgray;
+    border-radius: 5px;
+}
+/*menu*/
+nav{
+width: 1500px;
+margin: auto;
+background: #fed700;
+height: 50px;
+
+}
+.menu > ul{
+   margin: auto;
+    overflow: hidden;   
+    width: 1200px;
+    padding: 5px;
+   
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 2px;
+        
+}
+.menu ul li
+
+{   
+   
+    list-style: none; /* làm ẩn cái chấm đen của thẻ*/
+    float: left;
+    width: 156px;
+    line-height: 40px;
+    max-height: 50px;
+    border-radius: 5px;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+
+} 
+.menu li a {
+    text-decoration: none; /* làm ẩn gạch chân ở dưới chữ */
+    color: black;
+}
+.menu li:hover{
+        
+        background-color: #f5f5f5;
+    
+}
+.menu-nho{
+    background-color: darkred;
+    text-transform: uppercase;
+    position: absolute;
+    display: none;
+    width: 156px;
+}
+.menu-nho:hover{
+    cursor: pointer;
+    
+}
+.menu ul li:hover .menu-nho{
+    display: block;
+}
+/*slide*/
+section{
+    width:1200px;
+    margin: auto;
+   
+    
+}
+.menu-left-list{
+    
+   background-color:darkgray;
+    margin: 5px;
+    margin-top: 10px;  
+}
+.menu-left-title{
+    padding: 10px 10px 5px;
+    background: #fed700;
+    font-weight: bold; 
+     
+}
+#list{
+    padding: 10px;
+    
+}
+.input-sm{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+#list li{
+    margin: 20px auto;
+    list-style: none;
+
+}
+#list li a{
+    color:black
+}
+#list li a:hover{
+   color:blue;
+     
+}
+a{
+    text-decoration: none;
+}
+/*ảnh chạy*/
+.Phanhai{
+    padding-top: 0px;
+    margin: 10px;
+    
+    background: #f7f7f7;
+    position: relative;
+    width: 900px;
+    
+    
+}
+a{
+    text-decoration: none;
+    
+    list-style: none;
+}
+
+#Banner{
+    
+    
+    height: 382px;
+    
+     width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/**/
+.slide{
+    height: 400px;
+    float: left;
+    width: 870px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* margin-top: 50px; */
+    /* border-radius: 10px; */
+    position: relative;
+  }
+  
+  
+.dieuhuong{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 48%;
+    padding-left: 20px;
+  }
+  .dieuhuong #Phai{
+    position: relative;
+    left: 750px;	
+  }
+
+  .chuyen-slide{
+    width: 4800px;
+    transition: all 0.5s;
+  }
+  .chuyen-slide a img{
+    width: 870px;
+    height: 400px;
+    float:left;
+  }
+.khung-content{
+   
+    padding: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+.tenAcc  {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    
+}
+.tenAcc:hover {
+    color: darkgray;
+    transition: 1s;
+}
+.color-p{
+    padding: 5px;
+}
+.dongia{
+    font-weight: 500;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+#chonmua{
+    margin: 10px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 5px;
+}
+.khung-sp{  
+    margin: 10px 0px;   
+   border-radius: 5px;
+   margin-left: 10px;
+    background-color: white; 
+}
+.divcontainer1:hover{
+    transition:1s;
+    
+}
+.xt {
+    float: right;
+    margin-top:0px;
+    margin-right: 10px;
+  }
+  
+  .xt a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .xt :hover {
+    color: blue;
+  }
+  
+/*footer*/
+footer{
+    background-color: darkgray;
+     margin: auto;
+}
+
+p{
+    margin: 0 0 10px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ghichu{
+    
+    margin-left: 25%;
+    margin-top: -69px;
+    height: 80px;
+}
+.khung-qc{
+   
+    background:darkgrey;
+    margin-bottom: 6px;
+}
+.khung-qc:hover{
+    background-color: darkslateblue;
+}

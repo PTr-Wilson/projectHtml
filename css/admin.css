@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.main{
+    height: 900px;
+}
+.div-head{
+    background-color: darkgray;  /* căn màu phần đầu*/
+}
+.txt-panel{
+    padding-left:50px;
+    padding-top:5px;
+    font-family:'Franklin Gothic';    
+}
+.div-left{
+    background:rgb(247, 247, 247);
+    border-right:1px solid #cbcbcb;
+    height:100%;
+}
+a{
+    text-decoration:none;
+}
+#menu ul li a{
+    text-decoration:none;
+    background:#f3f3f3;
+    display:block; 
+    font-size:17px;
+    border-bottom:1px solid #ffffff;
+    padding:10px;
+    color:#3b3b3b;
+}
+.left-o{
+    float: right;
+}

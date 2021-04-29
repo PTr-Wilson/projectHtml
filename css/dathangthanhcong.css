@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 13px;
+	margin: 0px auto;
+}
+
+.Cangiua{
+	margin: auto;
+}
+
+
+
+
+
+
+.Phanhai{
+	margin: auto;
+	padding-bottom: 50px;
+	width: 1170px;
+}
+
+
+
+
+.Phangiuatrang{
+	width: 1170px;
+	margin: auto;
+	height: 600px;
+}
+.box-mid{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+.mid-title{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 21px;
+}
+.titleL{
+	float: left;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-right: 1px solid #cd0000;
+	padding-right: 5px;
+	margin-left: 16px;
+	font-family: sans-serif;
+}
+.mid-content{
+	height: auto;
+	padding-left: 16px;
+	width: 50%;
+	float: left;
+
+}
+.order-complete{
+	padding: 15px 0;
+
+}
+.order-complete .title-complete{
+	font-size: 35px;
+    color: darkslategrey;
+    text-transform: uppercase;
+    line-height: 35px;
+    padding-bottom: 22px;
+}
+.thankiu{
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+.order-complete .thankiu strong{
+	color: darkslategray;
+
+}
+.Tieptucmuahang{
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+    
+	padding: 6px 12px;
+	
+	font-size: 14px;
+	font-weight: normal;
+	
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+.Tieptucmuahang:hover{
+	background: #dae0e5;
+}
+.Pic-Payo{
+    width: 48%;
+    float: right;
+    margin-top: -20px;
+}
+.Pic-Payo img{
+	height: 100%;
+    width: 42%;
+    padding: 0 37%;
+}
+
+img{
+	border: 0px;
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	list-style: none;
+
+}
+li{
+	list-style: none;
+}
+#PhanCuoiTrang{
+		border-top: 1px solid #ececec;
+}

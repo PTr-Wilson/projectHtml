@@ -1,0 +1,543 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: cornflowerblue;
+    
+}
+
+
+.clearfix{
+    width: 1200px;
+    margin: auto;
+    background-color: #ccc;
+}
+.cot3{
+    width:20%;
+     float: left;
+     text-align: center;
+     
+     
+     
+     min-height: 1px;
+    
+}
+.cot6{
+    width: 50%;
+    float: left;
+    
+    
+   
+    
+}
+.div-head {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.head-div-container {
+    padding-top: 15px;
+    
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: 50px;
+    
+}
+.form-control {
+    
+    width: 500px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-top: 12px;
+    
+    
+   
+}
+.btn-primary {
+    width: 40px;
+    height: 34px;
+    
+}
+.cot9{
+    
+    width: 29%;
+    float: left;
+    
+   
+   
+}
+.item-header{
+    float: left;
+    padding-left: 10px;
+    margin-top: 0;
+}
+.shopping { 
+    float: left;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding-left: 10px ;
+    padding-top: 10px ;
+}
+.txt-giohang {
+    font-size: 14px;
+    float: left;
+    color: black;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.sl-giohang {
+    position: absolute;;
+    top: 20px;
+   left: 1035px;
+   
+}
+.label-danger {
+    background-color: #d9534f;
+   
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    border-radius: 20px;
+}
+.shoping {
+    float: left;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding-top: 10px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 6px 12px;
+    margin-top: 15px;
+    font-weight: bold;
+    background: darkgray;
+    border-radius: 5px;
+}
+/* menu*/
+.menu > ul{
+    background: firebrick;
+    overflow: hidden;   
+}
+ul{
+    margin-top: 0px;
+        margin-bottom: 10px;
+}
+.menu ul li
+
+{
+    
+    list-style: none; /* làm ẩn cái chấm đen của thẻ*/
+    float: left;
+    width: 15%;
+    line-height: 50px;
+    max-height: 50px;
+    background-color: indianred;
+    border-right: 1px solid violet;
+    text-align: center;
+
+} 
+.menu li a {
+    text-decoration: none; /* làm ẩn gạch chân ở dưới chữ */
+    color: silver;
+}
+.menu li:hover{
+    background-color: green;
+   
+}
+/*nội dung*/
+.div-content{
+    width: 1200px;
+    margin: auto;
+}
+.le-trai{ 
+    
+    width: 23%;
+    float: left;
+    
+    
+}
+.divcontainer{
+    border: 2px solid hotpink;
+    margin: 10px 0px;
+   
+    
+}
+.page-dau{
+    padding: 10px 10px 5px;
+    background: indianred;
+    font-weight: bold; 
+     
+}
+.khung{
+    padding: 10px;
+}
+.input-sm{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+#list li{
+    margin: 20px auto;
+    list-style: none;
+
+}
+#list li a{
+    color: maroon;
+}
+#list li a:hover{
+    background-color: seagreen;
+     
+}
+a{
+    text-decoration: none;
+}
+.le-phai{
+    width: 75%;
+    
+    
+    float: left;
+    margin-left: 10px;
+}
+
+
+.Phanhai{
+    padding-top: 0px;
+    margin: auto;
+    background: #f7f7f7;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+
+#Banner{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: -15px;
+    padding-left: -15px;
+    height: 382px;
+    
+     width: 100%;
+    margin: auto;
+}
+
+/**/
+.slide{
+    height: 400px;
+    float: left;
+    width: 870px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* margin-top: 50px; */
+    /* border-radius: 10px; */
+    position: relative;
+  }
+  
+  
+.dieuhuong{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 48%;
+    padding-left: 20px;
+  }
+  .dieuhuong #Phai{
+    position: relative;
+    left: 750px;	
+  }
+
+  .chuyen-slide{
+    width: 4800px;
+    transition: all 0.5s;
+  }
+  .chuyen-slide a img{
+    width: 870px;
+    height: 400px;
+    float:left;
+  }
+  /*ảnh chạy*/
+  
+  /*sản phẩm*/
+  #item{
+     
+      
+      width: 878px;
+      font-size: 20px;
+      font-weight: bold;
+      
+  }
+
+.sanpham{
+    background-color: white;
+    width:878px;
+    float:left
+}
+.khung-content{
+    border:  1px solid indianred;
+    padding: 10px;
+    margin-top: 10px;
+    width: 230px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+}
+.khung-content a{
+    color:gray;
+}
+.tenAcc{
+    font-weight: bold;
+    font-size: large;
+}
+.color-p{
+    padding: 5px;
+}
+.dongia{
+    font-weight: 500;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#chonmua{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 5px;
+}
+.hang-duoi{
+    float: left;
+    width: 878px;
+   
+}
+/*phần đuoi*/
+.div-footer{
+    width: 1500px;
+    float: left;
+    background: white;
+    margin: auto;
+}
+.phan-duoi{
+    margin-top: 50px;
+    background: darkgray;
+    float: left;
+    width: 1500px;
+    }
+.duoi-1{
+    float: left;
+    
+    
+    padding-top: 10px;
+    
+    
+    
+}
+p{
+    padding: 5px;
+    padding-right: 10px;
+}
+.thongtin{
+    background-color: darkgray;
+    float: left;
+    width: 1500px;
+    
+    
+    
+}
+.txt-ten{
+    width: 48%;
+    float: left;
+    
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.txt-sdt{
+    width: 48%;
+    float: left;
+    margin-left: 19px;
+    position: relative;
+    margin-top: 20px;
+}
+label{
+    max-width: 100%;
+    font-weight: bold;
+    
+    
+}
+
+.form-control-lienhe{
+    width: 100%;
+    display: block;
+    
+    margin-top: 5px;
+    height: 30px;
+    padding : 5px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.txt-email{
+    float: left;
+    
+    width:98%;
+    
+    
+}
+
+#noi-dung{
+    width: 100%;
+    padding: 5px ;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.btn-gui{
+    float: left;
+    width: 100%;
+
+}
+.btn-danger{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 6px 12px;
+    border-radius: 4px; 
+}
+.mathang{
+    float: left;
+    width: 1200px;
+    border: 1px solid darkgray;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* thông tin*/
+.khung-anh{
+    float: left;
+    width: 300px;
+    border: 1px solid red ;
+}
+.gia-sp{
+  
+    height: 30px;
+    padding: 8px 10px;
+}
+.thongtin-may{
+   width: 400px;
+   float: left; 
+   border:  1px solid darkgray;
+}
+.fk-tit{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px 10px;
+    font-weight: bold;
+    color: #fff;
+    background: #34a105;
+    border-bottom: 1px dashed #d7d7d7;
+}
+.fk-main {
+    
+    padding: 15px 15px 5px 15px;
+    border: 1px solid darkgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+/* giao diện giỏ hàng*/
+.gio-hang{
+    width: 800px;
+    background-color: darkseagreen;
+    border: 1px solid red;
+    margin-left: 200px;
+}
+.sp-khac{
+    color: firebrick;
+    margin-left: 600px;
+}
+.img-giohang{
+    float: left;
+    width: 100px;
+    
+    
+    margin: 10px;
+}
+.nd{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.fsghbtn {
+    float: left;
+    
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #828282;
+    font-size: 22px;
+    
+}
+.fs-ghplus {
+    width: 105px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.fsghbtn {
+    float: left;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #828282;
+    font-size: 22px;
+    background-color: #f8f8f8;
+    border: solid 1px #dfdfdf;
+}
+.fs-ghltd {
+    display: table-cell;
+    vertical-align: top;
+}
+.fs-ghplip {
+    float: left;
+    width: 40px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+    border: solid 1px #e0e0e0;
+    border-left: none;
+    border-right: none;
+}
+.thanh-tien{
+    float: left;
+    width: 800px;
+    width: 800px;   
+    border: 1px salmon;
+    position: relative;
+}
+.tien{
+    float: left;
+    width: 800px;
+    position: relative;
+}
